@@ -1,9 +1,7 @@
 import streamlit as st
 import pandas as pd
-import sklearn
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
 # -------------------
 # Load Dataset
 # -------------------
@@ -60,6 +58,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
