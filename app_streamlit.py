@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import scikitlearn as sklearn
+import sklearn
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -60,5 +60,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
