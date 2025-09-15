@@ -1,0 +1,9 @@
+streamlit
+pandas
+scikit-learn
+numpy
+python-telegram-bot>=13.0
+sqlite3     # built-in, not pip
+requests
+# sentence-transformers
+# faiss-cpu
