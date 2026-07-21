@@ -74,6 +74,7 @@ def main():
     for role, text in st.session_state.history:
         with st.chat_message("user" if role == "You" else "assistant"):
             st.write(text)
+print("HelloWorld")            
 
 if __name__ == "__main__":
     main()
